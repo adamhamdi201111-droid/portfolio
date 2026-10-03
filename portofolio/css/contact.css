@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.dark-theme nav{
+    background-color: #5b4d4d46 !important;
+    color: #fff;
+}
+.navbar-intro a span{
+    color: blue;
+}
+
+.navbar-intro ul button{
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.loading-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image:  linear-gradient(45deg, aqua, blue) ;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loading-screen span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.loading-screen.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+header span{
+    color: blue;
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.5;
+}
+
+body.dark-theme{
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark-theme #last-section{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+body.dark-theme .container.lower{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+body.dark-theme nav{
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.icon-box {
+  width: 42px;
+  height: 42px;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.form-control {
+  border-color: #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+}
+
+.contact-link {
+  color: #0d6efd;
+  word-break: break-all;
+}
+
+.contact-link:hover {
+  text-decoration: underline !important;
+}
+
+footer {
+  background-color: #0f172a !important;
+}

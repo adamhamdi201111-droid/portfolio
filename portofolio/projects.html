@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+            <div class="loading-screen w-100 h-100"><span class="text-white text-center ">Building-portfolio</span></div>
+
+      <nav class="navbar navbar-expand-lg bg-body fixed-top opacity-75 navbar-blur border-bottom border-1 border-dark">
+  <div class="container navbar-intro">
+    <a class="navbar-brand" href="#">Adam<span>.dev</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="certificates.html">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <button id="modes" class="ligh-mode"><i class="fa-solid fa-moon"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="mt-5 pt-2">
+  <header>
+
+    <div class="container my-2 py-2">
+      <div class="row ">
+          <span class="my-2"><strong style="color: blue;">//</strong>My Projects</span>
+          <h2>Get To Know Me</h2>
+          <p>Hello! I'm Adam, a passionate programmer with a love for creating 
+    </div>
+  </header>
+</section>
+
+
+
+  <div class="container">
+    <section class="d-flex justify-content-center align-items-center py-3">
+         <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+  </li>
+
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Python</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">JavaScript</button>
+  </li>
+</ul>
+    </section>
+    <section class="projects-container tab-content" id="pills-tabContent"">
+        
+        
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">   
+                <div class="row g-3"> 
+                    <article class="project-card col-lg-4"  data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-address-card card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Student Portfolio Builder</h3>
+        <p class="card-description">A responsive multi-page portfolio template for students, featuring dynamic project routing with custom CSS variable styling.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="web python">
+      <div class="card-header">
+        <i class="fa-solid fa-book-medical card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Library Management System</h3>
+        <p class="card-description">A full-stack app featuring user authentication, book catalog management, search/filter functionalities, and an admin dashboard.</p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Tailwind</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-cart-shopping card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">E-Commerce Landing Page</h3>
+        <p class="card-description">A high-conversion landing page for a modern Online Store with interactive product showcases and animated promotional banners.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS Grid</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-list-check card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Task Manager App</h3>
+        <p class="card-description">A productivity web tool with task persistence, real-time filtering, priorities, and a clean minimalist UI.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="python">
+      <div class="card-header">
+        <i class="fa-solid fa-chart-line card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Student Result Analyzer</h3>
+        <p class="card-description">A web application designed for analytical evaluation of student performance, enabling simple metrics display and progress tracking.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">Chart.js</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+    <article class="project-card col-lg-4" data-category="web python">
+      <div class="card-header">
+        <i class="fa-solid fa-cloud-sun card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Weather Dashboard</h3>
+        <p class="card-description">A real-time weather forecasting app pulling current weather and multi-day forecasts via OpenWeatherMap API with custom UI graphics.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">REST API</span>
+          <span class="tag">CSS</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article></div>
+
+
+        </div>
+
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">   
+                <div class="row g-3"> 
+
+    <article class="project-card col-lg-4" data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-list-check card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Task Manager App</h3>
+        <p class="card-description">A productivity web tool with task persistence, real-time filtering, priorities, and a clean minimalist UI.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="python">
+      <div class="card-header">
+        <i class="fa-solid fa-chart-line card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Student Result Analyzer</h3>
+        <p class="card-description">A web application designed for analytical evaluation of student performance, enabling simple metrics display and progress tracking.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">Chart.js</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+    <article class="project-card col-lg-4" data-category="web python">
+      <div class="card-header">
+        <i class="fa-solid fa-cloud-sun card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Weather Dashboard</h3>
+        <p class="card-description">A real-time weather forecasting app pulling current weather and multi-day forecasts via OpenWeatherMap API with custom UI graphics.</p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">REST API</span>
+          <span class="tag">CSS</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article></div>
+
+
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">   
+                <div class="row g-3"> 
+                    <article class="project-card col-lg-4"  data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-address-card card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Student Portfolio Builder</h3>
+        <p class="card-description">A responsive multi-page portfolio template for students, featuring dynamic project routing with custom CSS variable styling.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="web python">
+      <div class="card-header">
+        <i class="fa-solid fa-book-medical card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Library Management System</h3>
+        <p class="card-description">A full-stack app featuring user authentication, book catalog management, search/filter functionalities, and an admin dashboard.</p>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Tailwind</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card col-lg-4" data-category="web">
+      <div class="card-header">
+        <i class="fa-solid fa-cart-shopping card-icon"></i>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">E-Commerce Landing Page</h3>
+        <p class="card-description">A high-conversion landing page for a modern Online Store with interactive product showcases and animated promotional banners.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS Grid</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-external-link"></i> Live Demo</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+
+        </div>
+
+  </section>
+  </div>
+
+</section>
+
+<section class="py-4 mt-5 d-flex justify-content-center align-items-center">
+  <div class="py-2 d-flex flex-column align-items-center text-center width-50">
+    <h3>Want the full picture?</h3>
+    <p>Come and check out the technologies I work with, or browse my resume for a detailed look at my experi3nce.</p>
+    <button class="btn btn-primary"><i class="fa-solid fa-download"></i> Download Resume</button>
+  </div>
+</section>
+
+<footer class="bg-dark text-white py-3 mt-5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>adam <span>.dev</span></h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit sit explicabo?</p>
+
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="col-lg-4">
+                <h4>Quick Links</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none link-light link-opacity-75">About Me</a></li>
+                    <li><a href="#" class="text-decoration-none link-light link-opacity-75">Projects</a></li>
+                    <li><a href="#" class="text-decoration-none link-light link-opacity-75">Certificates</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h4>Contact</h4>
+                <ul class="list-unstyled">
+                    <li><i class="fa-solid fa-envelope"></i> <a href="#" class="text-decoration-none link-light link-opacity-75">Email: john.doe@example.com</a></li>
+                    <li><i class="fa-solid fa-phone"></i> <a href="#" class="text-decoration-none link-light link-opacity-75">Phone: +1 234 567 890</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="#" class="text-decoration-none link-light link-opacity-75">Location: City, Country</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+        <hr class="my-3 border-secondary">
+        <div class="text-center">
+            <p class="mb-0">&copy; 2023 Adam Hassan. All rights reserved.</p>
+    </div>
+    </div>
+  </footer>
+
+            <button id="scroll" class="btn btn-primary position-fixed bottom-0 end-0 rounded-circle m-3 opacity-0"><i class="fas fa-arrow-up"></i></button>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="/js/js.js"></script>
+</body>
+</html>
